@@ -1,0 +1,222 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wraper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block {
+    border: 1px solid grey;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+}
+
+.content {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    border: 1px solid grey;
+    box-shadow: 4px 3px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.left,
+.center,
+.right {
+    font-size: 1.5em;
+}
+
+.left,
+.right {
+    width: 25%;
+}
+
+.left p {
+    padding: 40px 0px 50px 10px;
+}
+
+.center {
+    width: 50%;
+}
+
+.text {
+    margin: 30px 0px 50px 30px;
+}
+
+.text p {
+    padding: 10px 10px 10px 0px;
+}
+
+.right .photo {
+    float: right;
+    padding: 20px 20px 0px 20px;
+}
+
+span {
+    color: gray;
+}
+
+.block>p {
+    padding: 20px 20px 20px 50px;;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+footer {
+    border-top: 1px solid grey;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+a>span {
+    padding-left: 15px;
+    float: right;
+}
+
+progress {
+    width: 50%;
+    height: 16px;
+    background-color: yellow;
+}
